@@ -1,0 +1,60 @@
+tony@FTW:~/github/education/hand_on_activities_3/links$ sudo adduser sudouser
+tony@FTW:~/github/education/hand_on_activities_3/links$ id sudouser
+
+uid=1001(sudouser) gid=1001(sudouser) groups=1001(sudouser)
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ sudo adduser sudouser sudo
+
+    Adding user `sudouser' to group `sudo' ...
+    Adding user sudouser to group sudo
+    Done.
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ id sudouser
+
+    uid=1001(sudouser) gid=1001(sudouser) groups=1001(sudouser),27(sudo)
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ su - sudouser
+
+Password:
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+Welcome to Ubuntu 20.04.1 LTS (GNU/Linux 4.4.0-18362-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tue Jan  5 23:59:18 MSK 2021
+
+  System load:    0.52      Processes:             9
+  Usage of /home: unknown   Users logged in:       0
+  Memory usage:   75%       IPv4 address for eth0: ***********
+  Swap usage:     8%        IPv4 address for eth1: ***********
+
+0 updates can be installed immediately.
+0 of these updates are security updates.
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+*** System restart required ***
+
+This message is shown once a day. To disable it please create the
+/home/sudouser/.hushlogin file.
+
+sudouser@FTW:~$ sudo ls -lah /root
+
+[sudo] password for sudouser:
+
+    total 4.0K
+    drwx------ 1 root root 4.0K Jan  5 19:03 .
+    drwxr-xr-x 1 root root 4.0K Jan  5 19:30 ..
+    -rw-r--r-- 1 root root 3.1K Dec  5  2019 .bashrc
+    drwxr-xr-x 1 root root 4.0K Dec 19 20:01 .local
+    -rw-r--r-- 1 root root  161 Dec  5  2019 .profile
+    drwx------ 1 root root 4.0K Jan  5 19:03 .ssh
+    -rw-r--r-- 1 root root  165 Dec 19 19:04 .wget-hsts
+	

@@ -1,0 +1,102 @@
+tony@FTW:~/github/education/hand_on_activities_3$ mv file3 file3_changed
+tony@FTW:~/github/education/hand_on_activities_3$ mv file3_hard file3_hard_changed
+tony@FTW:~/github/education/hand_on_activities_3$ ll
+
+    total 4
+    drwxr-xr-x 1 tony tony 4096 Jan  5 21:10 ./
+    drwxr-xr-x 1 tony tony 4096 Jan  5 19:30 ../
+    -rw-r--r-- 1 tony tony   12 Jan  5 19:35 file2
+    lrwxrwxrwx 1 tony tony    5 Jan  5 20:15 file3_changed -> file1
+    -rw-r--r-- 1 tony tony   11 Jan  5 20:12 file3_hard_changed
+    -rw-r--r-- 1 root root 1700 Jan  5 21:02 listing_1.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:37 listing_2.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:37 listing_3.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:38 listing_4.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:38 listing_5.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:38 listing_6.txt
+	
+tony@FTW:~/github/education/hand_on_activities_3$ mkdir links
+tony@FTW:~/github/education/hand_on_activities_3$ mv new_simbol_link links/new_simbol_link
+tony@FTW:~/github/education/hand_on_activities_3$ cd links
+tony@FTW:~/github/education/hand_on_activities_3/links$ ll
+
+    total 0
+    drwxr-xr-x 1 tony tony 4096 Jan  5 21:23 ./
+    drwxr-xr-x 1 tony tony 4096 Jan  5 21:23 ../
+    lrwxrwxrwx 1 tony tony    5 Jan  5 21:12 new_simbol_link -> file2
+
+# Так как ранее созданная символическая ссылка перестала работать при переносе в другой каталог
+# создадим новую символическую ссылку, которая будет ссылаться на нужный файл используя
+# полный путь до него
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ cd ..
+tony@FTW:~/github/education/hand_on_activities_3$ ln -s ~/github/education/hand_on_activities_3/file2 new_simbol_link_2
+tony@FTW:~/github/education/hand_on_activities_3$ ll
+
+    total 8
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:02 ./
+    drwxr-xr-x 1 tony tony 4096 Jan  5 21:18 ../
+    -rw-r--r-- 1 tony tony   12 Jan  5 19:35 file2
+    lrwxrwxrwx 1 tony tony    5 Jan  5 20:15 file3_changed -> file1
+    -rw-r--r-- 1 tony tony   11 Jan  5 20:12 file3_hard_changed
+    drwxr-xr-x 1 tony tony 4096 Jan  5 21:23 links/
+    -rw-r--r-- 1 root root 1700 Jan  5 21:02 listing_1.txt
+    -rw-r--r-- 1 root root 1337 Jan  5 21:40 listing_2.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:37 listing_3.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:38 listing_4.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:38 listing_5.txt
+    -rw-r--r-- 1 root root    0 Jan  5 20:38 listing_6.txt
+    lrwxrwxrwx 1 tony tony   54 Jan  5 23:02 new_simbol_link_2 -> /home/tony/github/education/hand_on_activities_3/file2
+
+tony@FTW:~/github/education/hand_on_activities_3$ mv new_simbol_link_2 links/new_simbol_link_2
+tony@FTW:~/github/education/hand_on_activities_3$ cd links
+tony@FTW:~/github/education/hand_on_activities_3/links$ ll
+
+    total 0
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:03 ./
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:03 ../
+    lrwxrwxrwx 1 tony tony    5 Jan  5 21:12 new_simbol_link -> file2
+    lrwxrwxrwx 1 tony tony   54 Jan  5 23:02 new_simbol_link_2 -> /home/tony/github/education/hand_on_activities_3/file2
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ cat new_simbol_link_2
+
+test file1
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ touch new_file_1 && touch new_file_2
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod ug+rw new_file_1
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod u+rw new_file_2
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod o-r new_file_2
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod g-r new_file_2
+tony@FTW:~/github/education/hand_on_activities_3/links$ ll
+
+    total 0
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:13 ./
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:03 ../
+    -rw-rw-r-- 1 tony tony    0 Jan  5 23:13 new_file_1
+    -rw------- 1 tony tony    0 Jan  5 23:13 new_file_2
+    lrwxrwxrwx 1 tony tony    5 Jan  5 21:12 new_simbol_link -> file2
+    lrwxrwxrwx 1 tony tony   54 Jan  5 23:02 new_simbol_link_2 -> /home/tony/github/education/hand_on_activities_3/file2
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod 777 new_file_1
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod 777 new_file_2
+tony@FTW:~/github/education/hand_on_activities_3/links$ ll
+
+    total 0
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:13 ./
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:03 ../
+    -rwxrwxrwx 1 tony tony    0 Jan  5 23:13 new_file_1*
+    -rwxrwxrwx 1 tony tony    0 Jan  5 23:13 new_file_2*
+    lrwxrwxrwx 1 tony tony    5 Jan  5 21:12 new_simbol_link -> file2
+	lrwxrwxrwx 1 tony tony   54 Jan  5 23:02 new_simbol_link_2 -> /home/tony/github/education/hand_on_activities_3/file2
+
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod 660 new_file_1
+tony@FTW:~/github/education/hand_on_activities_3/links$ chmod 600 new_file_2
+tony@FTW:~/github/education/hand_on_activities_3/links$ ll
+
+    total 0
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:13 ./
+    drwxr-xr-x 1 tony tony 4096 Jan  5 23:03 ../
+    -rw-rw---- 1 tony tony    0 Jan  5 23:13 new_file_1
+    -rw------- 1 tony tony    0 Jan  5 23:13 new_file_2
+    lrwxrwxrwx 1 tony tony    5 Jan  5 21:12 new_simbol_link -> file2
+    lrwxrwxrwx 1 tony tony   54 Jan  5 23:02 new_simbol_link_2 -> /home/tony/github/education/hand_on_activities_3/file2
