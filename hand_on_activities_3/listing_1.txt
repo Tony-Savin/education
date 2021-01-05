@@ -1,0 +1,40 @@
+tony@FTW:~/github/education/hand_on_activities_3$ echo "test file1" > file1
+tony@FTW:~/github/education/hand_on_activities_3$ cp file1 file2
+tony@FTW:~/github/education/hand_on_activities_3$ ln -s file1 file3
+tony@FTW:~/github/education/hand_on_activities_3$ ln file1 file3_hard
+tony@FTW:~/github/education/hand_on_activities_3$ ls -lahi
+
+    total 0
+     4503599627478572 drwxr-xr-x 1 tony tony 4.0K Jan  5 20:15 .
+    15481123719172314 drwxr-xr-x 1 tony tony 4.0K Jan  5 19:30 ..
+    47569271064102744 -rw-r--r-- 2 tony tony   11 Jan  5 20:12 file1
+     6755399441170998 -rw-r--r-- 1 tony tony   12 Jan  5 19:35 file2
+     8162774324779971 lrwxrwxrwx 1 tony tony    5 Jan  5 20:15 file3 -> file1
+    47569271064102744 -rw-r--r-- 2 tony tony   11 Jan  5 20:12 file3_hard
+
+tony@FTW:~/github/education/hand_on_activities_3$ cat file3
+
+test file1
+
+tony@FTW:~/github/education/hand_on_activities_3$ cat file3_hard
+
+test file1
+
+tony@FTW:~/github/education/hand_on_activities_3$ rm file1
+tony@FTW:~/github/education/hand_on_activities_3$ ls -lahi
+
+    total 0
+     4503599627478572 drwxr-xr-x 1 tony tony 4.0K Jan  5 20:26 .
+    15481123719172314 drwxr-xr-x 1 tony tony 4.0K Jan  5 19:30 ..
+     6755399441170998 -rw-r--r-- 1 tony tony   12 Jan  5 19:35 file2
+     8162774324779971 lrwxrwxrwx 1 tony tony    5 Jan  5 20:15 file3 -> file1
+    47569271064102744 -rw-r--r-- 1 tony tony   11 Jan  5 20:12 file3_hard
+     7599824371193576 -rw-r--r-- 1 root root    0 Jan  5 20:20 listing.txt
+
+tony@FTW:~/github/education/hand_on_activities_3$ cat file3
+
+cat: file3: No such file or directory
+
+tony@FTW:~/github/education/hand_on_activities_3$ cat file3_hard
+
+test file1
