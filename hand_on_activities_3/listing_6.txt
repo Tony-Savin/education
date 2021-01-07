@@ -1,0 +1,4 @@
+tony@FTW:/home/developers_work$ mkdir hidden
+tony@FTW:/home/developers_work/hidden$ touch hide
+tony@FTW:/home/developers_work/hidden$ touch hide_1
+tony@FTW:/home/developers_work/hidden$ chmod 711 /home/developers_work/hidden

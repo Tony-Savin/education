@@ -1,0 +1,2 @@
+tony@FTW:/home/developers_work$ mkdir files
+tony@FTW:/home/developers_work$ chmod 1775 /home/developers_work/files/

@@ -1,0 +1,45 @@
+tony@FTW:~/github/education/hand_on_activities_3$ sudo adduser --group developer
+tony@FTW:~/github/education/hand_on_activities_3$ sudo adduser dvlp1 --ingroup developer
+tony@FTW:~/github/education/hand_on_activities_3$ sudo adduser dvlp2 --ingroup developer
+tony@FTW:~/github/education/hand_on_activities_3$ sudo adduser dvlp3 --ingroup developer
+
+# После выполнения команд выше мы создали группу developer и пользователей dvlp1 dvlp2 dvlp3
+# Указав опцию --ingroup developer мы добавили пользователей сразу в нужную нам группу,
+# не создавая одноимённую группу пользователя.
+# Но при этом в /etc/passwd у нас у пользователей появились атрибуты принадлежности к группе,
+# а в /etc/group в списке пользователей они не появились.
+# 
+# dvlp1:x:1002:1002:dvlp1,,,:/home/dvlp1:/bin/bash
+# dvlp2:x:1003:1002:dvlp2,,,:/home/dvlp2:/bin/bash
+# dvlp3:x:1004:1002:dvlp3,,,:/home/dvlp3:/bin/bash
+# 
+# developer:x:1002:
+# 
+# С чем это связано мне понять не удалось, поэтому добавил пользователей в группу вручную
+# 
+
+tony@FTW:~/github/education/hand_on_activities_3$ sudo usermod -aG developer dvlp1 && usermod -aG developer dvlp2 && usermod -aG developer dvlp3
+
+# После добавление наших пользователей в группу вручную, сведения в /etc/group стали выглядить как надо
+# 
+# developer:x:1002:dvlp1,dvlp2,dvlp3
+# 
+
+tony@FTW:~/github/education/hand_on_activities_3$ sudo mkdir /home/developers_work/
+tony@FTW:~/github/education/hand_on_activities_3$ cd /home/developers_work/
+tony@FTW:/home/developers_work$ chown tony:developer /home/developers_work/
+tony@FTW:/home$ chmod 2775 /home/developers_work/
+
+# Таким образом мы создали директорию для совместной работы и установили принадлежность группе /developer
+# Назначили полные права для владельца и пользователей привилегированной группы, остальным оставили
+# возможность перехода и просмотра директории.
+# При этом мы так же установили атрибут наследования родительской группы для файлов и поддиректорий
+# создаваемых внутри нашей родительской директории /developer
+
+tony@FTW:/home/developers_work$ sudo chmod -R 660 $(find . -type f)
+
+# Так как при создании файлов и директорий устанавливаются права по умолчанию, они не удовлетворяют нашим требованиям
+# Чаще всего это umask 022, который не даст возможность изменять файлы кому то, кроме владельца.
+# Как задать атрибуты доступа для конкретной директории или для группы по умолчанию я не нашел, так что использовал
+# менее изящный метод, который находит все файлы в текущей директории и вложенных директориях и рекурсивно устанавливает
+# вручную заданные атрибуты доступа
