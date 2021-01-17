@@ -2,3 +2,11 @@ tony@FTW:/home/developers_work$ mkdir hidden
 tony@FTW:/home/developers_work/hidden$ touch hide
 tony@FTW:/home/developers_work/hidden$ touch hide_1
 tony@FTW:/home/developers_work/hidden$ chmod 711 /home/developers_work/hidden
+tony@FTW:/home/developers_work/hidden$ su - dvlp1
+dvlp1@FTW:~$ cd /home/developers_work/hidden
+dvlp1@FTW:/home/developers_work/hidden$ ll
+ls: cannot open directory '.': Permission denied
+dvlp1@FTW:/home/developers_work/hidden$ cat hide
+hidden
+change dvlp1
+
