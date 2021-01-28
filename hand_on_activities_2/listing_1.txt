@@ -1,0 +1,698 @@
+tony@ubuntu410:~$ ls -lah /etc
+итого 1,1M
+drwxr-xr-x 131 root root    12K янв 14 06:18 .
+drwxr-xr-x  20 root root   4,0K дек  7 17:32 ..
+drwxr-xr-x   3 root root   4,0K июл 31 19:31 acpi
+-rw-r--r--   1 root root   3,0K июл 31 19:27 adduser.conf
+drwxr-xr-x   3 root root   4,0K июл 31 19:28 alsa
+drwxr-xr-x   2 root root   4,0K дек  7 17:35 alternatives
+-rw-r--r--   1 root root    401 июл 16  2019 anacrontab
+drwxr-xr-x   8 root root   4,0K дек 22 02:55 apache2
+-rw-r--r--   1 root root    433 окт  2  2017 apg.conf
+drwxr-xr-x   5 root root   4,0K июл 31 19:28 apm
+drwxr-xr-x   3 root root   4,0K июл 31 19:30 apparmor
+drwxr-xr-x   7 root root   4,0K янв 10 06:52 apparmor.d
+drwxr-xr-x   4 root root   4,0K дек 19 18:43 apport
+-rw-r--r--   1 root root    769 янв 18  2020 appstream.conf
+drwxr-xr-x   7 root root   4,0K дек  7 18:47 apt
+drwxr-xr-x   3 root root   4,0K июл 31 19:31 avahi
+-rw-r--r--   1 root root   2,3K фев 25  2020 bash.bashrc
+-rw-r--r--   1 root root     45 янв 26  2020 bash_completion
+drwxr-xr-x   2 root root   4,0K дек 19 18:43 bash_completion.d
+-rw-r--r--   1 root root    367 апр 14  2020 bindresvport.blacklist
+drwxr-xr-x   2 root root   4,0K апр 22  2020 binfmt.d
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 bluetooth
+-rw-r-----   1 root root     33 июл 31 19:31 brlapi.key
+drwxr-xr-x   7 root root   4,0K июл 31 19:30 brltty
+-rw-r--r--   1 root root    27K мар  3  2020 brltty.conf
+drwxr-xr-x   3 root root   4,0K июл 31 19:27 ca-certificates
+-rw-r--r--   1 root root   6,4K дек  7 17:48 ca-certificates.conf
+-rw-r--r--   1 root root   5,6K июл 31 19:27 ca-certificates.conf.dpkg-old
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 calendar
+drwxr-s---   2 root dip    4,0K дек  7 17:48 chatscripts
+drwxr-xr-x   2 root root   4,0K дек  7 17:33 console-setup
+drwxr-xr-x   2 root root   4,0K дек 19 18:43 containerd
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 cracklib
+drwxr-xr-x   2 root root   4,0K дек  7 17:36 cron.d
+drwxr-xr-x   2 root root   4,0K дек 22 02:55 cron.daily
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 cron.hourly
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 cron.monthly
+-rw-r--r--   1 root root   1,1K фев 13  2020 crontab
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 cron.weekly
+drwxr-xr-x   5 root lp     4,0K янв 17 17:45 cups
+drwxr-xr-x   2 root root   4,0K дек  7 17:48 cupshelpers
+drwxr-xr-x   4 root root   4,0K июл 31 19:27 dbus-1
+drwxr-xr-x   4 root root   4,0K июл 31 19:29 dconf
+-rw-r--r--   1 root root   2,9K авг  3  2019 debconf.conf
+-rw-r--r--   1 root root     13 дек  5  2019 debian_version
+drwxr-xr-x   3 root root   4,0K дек 22 02:55 default
+-rw-r--r--   1 root root    604 сен 16  2018 deluser.conf
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 depmod.d
+drwxr-xr-x   4 root root   4,0K июл 31 19:27 dhcp
+drwxr-xr-x   2 root root   4,0K дек  7 17:36 dictionaries-common
+drwxr-xr-x   2 root root   4,0K дек  7 18:51 docker
+drwxr-xr-x   4 root root   4,0K июл 31 19:27 dpkg
+-rw-r--r--   1 root root    685 фев 14  2020 e2scrub.conf
+drwxr-xr-x   3 root root   4,0K июл 31 19:29 emacs
+-rw-r--r--   1 root root    106 дек  7 17:45 environment
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 environment.d
+-rw-r--r--   1 root root   1,8K дек 27  2019 ethertypes
+drwxr-xr-x   3 root root   4,0K янв 10 06:52 firefox
+drwxr-xr-x   4 root root   4,0K июл 31 19:31 fonts
+-rw-r--r--   1 root root     20 фев 10  2020 fprintd.conf
+-rw-rw-r--   1 root root    665 дек  7 17:29 fstab
+-rw-r--r--   1 root root    280 июн 20  2014 fuse.conf
+drwxr-xr-x   3 root root   4,0K июл 31 19:31 fwupd
+-rw-r--r--   1 root root   2,6K фев  1  2020 gai.conf
+-rw-r--r--   1 root root   4,3K мая 18  2020 gamemode.ini
+drwxr-xr-x   2 root root   4,0K дек  7 17:49 gdb
+drwxr-xr-x   8 root root   4,0K дек  7 17:50 gdm3
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 geoclue
+drwxr-xr-x   4 root root   4,0K июл 31 19:29 ghostscript
+drwxr-xr-x   3 root root   4,0K июл 31 19:29 glvnd
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 gnome
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 groff
+-rw-r--r--   1 root root   1,1K дек  7 18:53 group
+-rw-r--r--   1 root root   1,1K дек  7 18:51 group-
+drwxr-xr-x   2 root root   4,0K дек  7 17:47 grub.d
+-rw-r-----   1 root shadow  880 дек  7 18:53 gshadow
+-rw-r-----   1 root shadow  876 дек  7 18:51 gshadow-
+drwxr-xr-x   3 root root   4,0K июл 31 19:28 gss
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 gtk-2.0
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 gtk-3.0
+-rw-r--r--   1 root root   5,0K авг 21  2019 hdparm.conf
+-rw-r--r--   1 root root     92 дек  5  2019 host.conf
+-rw-r--r--   1 root root      4 июл 31 19:33 hostid
+-rw-r--r--   1 root root     10 дек  7 17:32 hostname
+-rw-r--r--   1 root root    224 дек  7 17:32 hosts
+-rw-r--r--   1 root root    411 июл 31 19:30 hosts.allow
+-rw-r--r--   1 root root    711 июл 31 19:30 hosts.deny
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 hp
+drwxr-xr-x   3 root root   4,0K июл 31 19:30 ifplugd
+drwxr-xr-x   2 root root   4,0K дек 21 01:57 ImageMagick-6
+drwxr-xr-x   2 root root   4,0K дек 19 18:43 init
+drwxr-xr-x   2 root root   4,0K дек 22 02:55 init.d
+drwxr-xr-x   5 root root   4,0K дек  7 17:49 initramfs-tools
+-rw-r--r--   1 root root   1,8K фев 25  2020 inputrc
+drwxr-xr-x   2 root root   4,0K дек  7 17:50 insserv.conf.d
+drwxr-xr-x   4 root root   4,0K июл 31 19:27 iproute2
+-rw-r--r--   1 root root     26 июл 15  2020 issue
+-rw-r--r--   1 root root     19 июл 15  2020 issue.net
+drwxr-xr-x   6 root root   4,0K июл 31 19:30 kernel
+-rw-r--r--   1 root root    110 дек  7 17:34 kernel-img.conf
+-rw-r--r--   1 root root   1,3K дек  2  2017 kerneloops.conf
+drwxr-xr-x   2 root root   4,0K дек  7 17:48 ldap
+-rw-r--r--   1 root root    57K янв  8 06:34 ld.so.cache
+-rw-r--r--   1 root root     34 апр 14  2020 ld.so.conf
+drwxr-xr-x   2 root root   4,0K дек  7 17:45 ld.so.conf.d
+-rw-r--r--   1 root root    267 дек  5  2019 legal
+-rw-r--r--   1 root root     27 янв 18  2018 libao.conf
+-rw-r--r--   1 root root    191 фев 18  2020 libaudit.conf
+drwxr-xr-x   3 root root   4,0K июл 31 19:29 libblockdev
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 libnl-3
+drwxr-xr-x   2 root root   4,0K июн 26  2019 libpaper.d
+-rw-r--r--   1 root root   3,0K апр 14  2020 locale.alias
+-rw-r--r--   1 root root   9,3K дек  7 17:39 locale.gen
+lrwxrwxrwx   1 root root     33 янв 14 06:18 localtime -> /usr/share/zoneinfo/Europe/Moscow
+drwxr-xr-x   4 root root   4,0K июл 31 19:29 logcheck
+-rw-r--r--   1 root root    11K фев  7  2020 login.defs
+-rw-r--r--   1 root root    533 янв 21  2019 logrotate.conf
+drwxr-xr-x   2 root root   4,0K дек 22 02:55 logrotate.d
+-rw-r--r--   1 root root    104 июл 15  2020 lsb-release
+-rw-r--r--   1 root root    15K фев  1  2019 ltrace.conf
+-r--r--r--   1 root root     33 дек  7 17:41 machine-id
+-rw-r--r--   1 root root    111 янв 16  2020 magic
+-rw-r--r--   1 root root    111 янв 16  2020 magic.mime
+-rw-r--r--   1 root root    16K янв 14 06:18 mailcap
+-rw-r--r--   1 root root    449 окт 19  2019 mailcap.order
+-rw-r--r--   1 root root   5,1K фев 25  2020 manpath.config
+-rw-r--r--   1 root root    24K окт 19  2019 mime.types
+-rw-r--r--   1 root root    808 фев 14  2020 mke2fs.conf
+drwxr-xr-x   2 root root   4,0K дек  7 17:48 modprobe.d
+-rw-r--r--   1 root root    195 июл 31 19:27 modules
+drwxr-xr-x   2 root root   4,0K дек  7 18:21 modules-load.d
+lrwxrwxrwx   1 root root     19 дек  7 17:33 mtab -> ../proc/self/mounts
+-rw-r--r--   1 root root    624 мар 22  2020 mtools.conf
+drwxr-xr-x   3 root root   4,0K июл 31 19:30 mysql
+-rw-r--r--   1 root root   9,9K фев  7  2020 nanorc
+drwxr-xr-x   2 root root   4,0K июл 31 19:35 netplan
+drwxr-xr-x   6 root root   4,0K июл 31 19:30 network
+drwxr-xr-x   8 root root   4,0K июл 31 19:27 networkd-dispatcher
+drwxr-xr-x   7 root root   4,0K дек  7 17:49 NetworkManager
+-rw-r--r--   1 root root     91 дек  5  2019 networks
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 newt
+-rw-r--r--   1 root root    542 июл 31 19:31 nsswitch.conf
+drwxr-xr-x   4 root root   4,0K июл 31 19:31 openvpn
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 opt
+lrwxrwxrwx   1 root root     21 авг 17 16:31 os-release -> ../usr/lib/os-release
+drwxr-xr-x   2 root root   4,0K дек  7 17:48 PackageKit
+-rw-r--r--   1 root root    552 дек 17  2019 pam.conf
+drwxr-xr-x   2 root root   4,0K дек  7 18:00 pam.d
+-rw-rw-r--   1 root root      3 дек  7 17:33 papersize
+-rw-r--r--   1 root root   2,8K дек  7 18:00 passwd
+-rw-r--r--   1 root root   2,8K дек  7 18:00 passwd-
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 pcmcia
+drwxr-xr-x   3 root root   4,0K июл 31 19:28 perl
+drwxr-xr-x   4 root root   4,0K июл 31 19:29 pki
+drwxr-xr-x   3 root root   4,0K июл 31 19:29 pm
+-rw-r--r--   1 root root   7,5K июл 31 19:31 pnm2ppa.conf
+drwxr-xr-x   4 root root   4,0K июл 31 19:28 polkit-1
+-rw-rw-r--   1 root root    350 дек  7 17:33 popularity-contest.conf
+drwxr-xr-x   7 root dip    4,0K дек  7 17:48 ppp
+-rw-r--r--   1 root root    581 дек  5  2019 profile
+drwxr-xr-x   2 root root   4,0K дек  7 17:49 profile.d
+-rw-r--r--   1 root root   2,9K апр  2  2013 protocols
+drwxr-xr-x   3 root root   4,0K дек  7 17:49 pulse
+-rw-------   1 root root      0 июл 31 19:27 .pwd.lock
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 python3
+drwxr-xr-x   2 root root   4,0K дек  7 17:47 python3.8
+drwxr-xr-x   2 root root   4,0K дек 21 02:22 rc0.d
+drwxr-xr-x   2 root root   4,0K дек 21 02:22 rc1.d
+drwxr-xr-x   2 root root   4,0K дек 21 02:22 rc2.d
+drwxr-xr-x   2 root root   4,0K дек 21 02:22 rc3.d
+drwxr-xr-x   2 root root   4,0K дек 21 02:22 rc4.d
+drwxr-xr-x   2 root root   4,0K дек 21 02:22 rc5.d
+drwxr-xr-x   2 root root   4,0K дек 21 02:22 rc6.d
+drwxr-xr-x   2 root root   4,0K дек  7 17:36 rcS.d
+lrwxrwxrwx   1 root root     39 дек  7 17:32 resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
+lrwxrwxrwx   1 root root     13 дек 16 04:38 rmt -> /usr/sbin/rmt
+-rw-r--r--   1 root root    887 апр  1  2013 rpc
+-rw-r--r--   1 root root   1,4K фев 11  2020 rsyslog.conf
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 rsyslog.d
+-rw-r--r--   1 root root   5,1K мар 11  2020 rygel.conf
+drwxr-xr-x   3 root root   4,0K дек  7 17:49 sane.d
+drwxr-xr-x   4 root root   4,0K дек  7 17:45 security
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 selinux
+-rw-r--r--   1 root root    11K ноя  6  2019 sensors3.conf
+drwxr-xr-x   2 root root   4,0K июл 31 19:30 sensors.d
+-rw-r--r--   1 root root    15K фев 17  2020 services
+drwxr-xr-x   3 root root   4,0K июл 31 19:31 sgml
+-rw-r-----   1 root shadow 1,5K дек  7 18:00 shadow
+-rw-r-----   1 root shadow 1,5K дек  7 18:00 shadow-
+-rw-r--r--   1 root root    116 июл 31 19:27 shells
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 skel
+drwxr-xr-x   2 root root   4,0K дек  7 17:48 snmp
+drwxr-xr-x   4 root root   4,0K июл 31 19:31 speech-dispatcher
+drwxr-xr-x   4 root root   4,0K дек  7 18:00 ssh
+drwxr-xr-x   4 root root   4,0K дек 10 06:23 ssl
+-rw-r--r--   1 root root     18 дек  7 17:33 subgid
+-rw-r--r--   1 root root      0 июл 31 19:27 subgid-
+-rw-r--r--   1 root root     18 дек  7 17:33 subuid
+-rw-r--r--   1 root root      0 июл 31 19:27 subuid-
+-r--r-----   1 root root    755 фев  3  2020 sudoers
+drwxr-xr-x   2 root root   4,0K дек  7 17:48 sudoers.d
+-rw-r--r--   1 root root   2,3K фев 14  2020 sysctl.conf
+drwxr-xr-x   2 root root   4,0K дек  7 17:46 sysctl.d
+drwxr-xr-x   5 root root   4,0K дек  7 17:53 systemd
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 terminfo
+drwxr-xr-x   2 root root   4,0K дек  7 17:49 thermald
+-rw-r--r--   1 root root     14 янв 14 06:18 timezone
+drwxr-xr-x   2 root root   4,0K апр 22  2020 tmpfiles.d
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 ubuntu-advantage
+-rw-r--r--   1 root root   1,3K дек 14  2018 ucf.conf
+drwxr-xr-x   4 root root   4,0K дек  7 17:40 udev
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 udisks2
+drwxr-xr-x   3 root root   4,0K июл 31 19:31 ufw
+drwxr-xr-x   3 root root   4,0K дек  7 17:48 update-manager
+drwxr-xr-x   2 root root   4,0K дек  7 17:49 update-motd.d
+drwxr-xr-x   2 root root   4,0K апр  2  2020 update-notifier
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 UPower
+-rw-r--r--   1 root root   1,5K фев 10  2020 usb_modeswitch.conf
+drwxr-xr-x   2 root root   4,0K фев 24  2020 usb_modeswitch.d
+drwxr-xr-x   2 root root   4,0K июл 31 19:27 vim
+lrwxrwxrwx   1 root root     23 дек  7 17:29 vtrgb -> /etc/alternatives/vtrgb
+drwxr-xr-x   5 root root   4,0K июл 31 19:29 vulkan
+-rw-r--r--   1 root root   4,9K июл 24  2019 wgetrc
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 wpa_supplicant
+drwxr-xr-x  11 root root   4,0K июл 31 19:31 X11
+-rw-r--r--   1 root root    642 сен 24  2019 xattr.conf
+drwxr-xr-x   6 root root   4,0K июл 31 19:29 xdg
+drwxr-xr-x   2 root root   4,0K июл 31 19:31 xml
+-rw-r--r--   1 root root    477 окт  7  2019 zsh_command_not_found
+tony@ubuntu410:~$ cat /etc/timezone
+Europe/Moscow
+tony@ubuntu410:~$ cat /etc/xattr.conf
+# /etc/xattr.conf
+#
+# Format:
+# <pattern> <action>
+#
+# Actions:
+#   permissions - copy when trying to preserve permissions.
+#   skip - do not copy.
+
+system.nfs4_acl                 permissions
+system.nfs4acl                  permissions
+system.posix_acl_access         permissions
+system.posix_acl_default        permissions
+trusted.SGI_ACL_DEFAULT         skip            # xfs specific
+trusted.SGI_ACL_FILE            skip            # xfs specific
+trusted.SGI_CAP_FILE            skip            # xfs specific
+trusted.SGI_DMI_*               skip            # xfs specific
+trusted.SGI_MAC_FILE            skip            # xfs specific
+xfsroot.*                       skip            # xfs specific; obsolete
+user.Beagle.*                   skip            # ignore Beagle index data
+security.evm                    skip            # may only be written by kernel
+tony@ubuntu410:~$ cat /etc/wgetrc
+###
+### Sample Wget initialization file .wgetrc
+###
+
+## You can use this file to change the default behaviour of wget or to
+## avoid having to type many many command-line options. This file does
+## not contain a comprehensive list of commands -- look at the manual
+## to find out what you can put into this file. You can find this here:
+##   $ info wget.info 'Startup File'
+## Or online here:
+##   https://www.gnu.org/software/wget/manual/wget.html#Startup-File
+##
+## Wget initialization file can reside in /etc/wgetrc
+## (global, for all users) or $HOME/.wgetrc (for a single user).
+##
+## To use the settings in this file, you will have to uncomment them,
+## as well as change them, in most cases, as the values on the
+## commented-out lines are the default values (e.g. "off").
+##
+## Command are case-, underscore- and minus-insensitive.
+## For example ftp_proxy, ftp-proxy and ftpproxy are the same.
+
+
+##
+## Global settings (useful for setting up in /etc/wgetrc).
+## Think well before you change them, since they may reduce wget's
+## functionality, and make it behave contrary to the documentation:
+##
+
+# You can set retrieve quota for beginners by specifying a value
+# optionally followed by 'K' (kilobytes) or 'M' (megabytes).  The
+# default quota is unlimited.
+#quota = inf
+
+# You can lower (or raise) the default number of retries when
+# downloading a file (default is 20).
+#tries = 20
+
+# Lowering the maximum depth of the recursive retrieval is handy to
+# prevent newbies from going too "deep" when they unwittingly start
+# the recursive retrieval.  The default is 5.
+#reclevel = 5
+
+# By default Wget uses "passive FTP" transfer where the client
+# initiates the data connection to the server rather than the other
+# way around.  That is required on systems behind NAT where the client
+# computer cannot be easily reached from the Internet.  However, some
+# firewalls software explicitly supports active FTP and in fact has
+# problems supporting passive transfer.  If you are in such
+# environment, use "passive_ftp = off" to revert to active FTP.
+#passive_ftp = off
+passive_ftp = on
+
+# The "wait" command below makes Wget wait between every connection.
+# If, instead, you want Wget to wait only between retries of failed
+# downloads, set waitretry to maximum number of seconds to wait (Wget
+# will use "linear backoff", waiting 1 second after the first failure
+# on a file, 2 seconds after the second failure, etc. up to this max).
+#waitretry = 10
+
+
+##
+## Local settings (for a user to set in his $HOME/.wgetrc).  It is
+## *highly* undesirable to put these settings in the global file, since
+## they are potentially dangerous to "normal" users.
+##
+## Even when setting up your own ~/.wgetrc, you should know what you
+## are doing before doing so.
+##
+
+# Set this to on to use timestamping by default:
+#timestamping = off
+
+# It is a good idea to make Wget send your email address in a `From:'
+# header with your request (so that server administrators can contact
+# you in case of errors).  Wget does *not* send `From:' by default.
+#header = From: Your Name <username@site.domain>
+
+# You can set up other headers, like Accept-Language.  Accept-Language
+# is *not* sent by default.
+#header = Accept-Language: en
+
+# You can set the default proxies for Wget to use for http, https, and ftp.
+# They will override the value in the environment.
+#https_proxy = http://proxy.yoyodyne.com:18023/
+#http_proxy = http://proxy.yoyodyne.com:18023/
+#ftp_proxy = http://proxy.yoyodyne.com:18023/
+
+# If you do not want to use proxy at all, set this to off.
+#use_proxy = on
+
+# You can customize the retrieval outlook.  Valid options are default,
+# binary, mega and micro.
+#dot_style = default
+
+# Setting this to off makes Wget not download /robots.txt.  Be sure to
+# know *exactly* what /robots.txt is and how it is used before changing
+# the default!
+#robots = on
+
+# It can be useful to make Wget wait between connections.  Set this to
+# the number of seconds you want Wget to wait.
+#wait = 0
+
+# You can force creating directory structure, even if a single is being
+# retrieved, by setting this to on.
+#dirstruct = off
+
+# You can turn on recursive retrieving by default (don't do this if
+# you are not sure you know what it means) by setting this to on.
+#recursive = off
+
+# To always back up file X as X.orig before converting its links (due
+# to -k / --convert-links / convert_links = on having been specified),
+# set this variable to on:
+#backup_converted = off
+
+# To have Wget follow FTP links from HTML files by default, set this
+# to on:
+#follow_ftp = off
+
+# To try ipv6 addresses first:
+#prefer-family = IPv6
+
+# Set default IRI support state
+#iri = off
+
+# Force the default system encoding
+#localencoding = UTF-8
+
+# Force the default remote server encoding
+#remoteencoding = UTF-8
+
+# Turn on to prevent following non-HTTPS links when in recursive mode
+#httpsonly = off
+
+# Tune HTTPS security (auto, SSLv2, SSLv3, TLSv1, PFS)
+#secureprotocol = auto
+tony@ubuntu410:~$ ls -lah /proc
+итого 4,0K
+dr-xr-xr-x 246 root             root                0 дек  9 22:21 .
+drwxr-xr-x  20 root             root             4,0K дек  7 17:32 ..
+dr-xr-xr-x   9 root             root                0 дек  9 22:21 1
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 10
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 101
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1010
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 102
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 104
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 106
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 108
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1084
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 109
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 11
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1111
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1116
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1126
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1134
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1148
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1168
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 118
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1193
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1197
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1198
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 12
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1200
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1204
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 121
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1215
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1219
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1221
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1230
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1239
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1252
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1256
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1277
+dr-xr-xr-x   9 tony             tony                0 дек  9 22:22 1287
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 129056
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1296
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1297
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1298
+dr-xr-xr-x   9 tony             tony                0 дек  9 22:22 1299
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1301
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1306
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1307
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1310
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1311
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1314
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1315
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1318
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1319
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1320
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1321
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1323
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1324
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 134
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1355
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1357
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1360
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 137881
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 14
+dr-xr-xr-x   9 colord           colord              0 янв 17 23:36 1414
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1423
+dr-xr-xr-x   9 kernoops         adm                 0 янв 17 23:36 1456
+dr-xr-xr-x   9 kernoops         adm                 0 янв 17 23:36 1460
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 15
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 1508
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 16
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 17
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1722
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1730
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 1785
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 18
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 180
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 181
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 182
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 182831
+dr-xr-xr-x   9 whoopsie         whoopsie            0 янв 17 23:36 182931
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 183
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 183164
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 184
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 185
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 186
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 186204
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 186219
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 186233
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 186254
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 186302
+dr-xr-xr-x   9             2001             2001    0 янв 17 23:36 186304
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 187
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 188
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 189
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 189417
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 190
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 191
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 192
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 193
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 194
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 195
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 2
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 20
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 201
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 204
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 21
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 213
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 22
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 23
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 233
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 234
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 24
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 249
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 26
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 261435
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 27
+dr-xr-xr-x   9 root             root                0 янв 17 22:42 274
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 28
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 29
+dr-xr-xr-x   9 root             root                0 янв 17 22:37 298
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 3
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 30
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 312
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 318
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 32
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 322
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 323
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 324
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 33
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 34
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 35
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 351
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 36
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 365
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 368
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 369
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 37
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 38
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 384
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 39
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 392
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 4
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 40
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 403
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 41
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 419
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 42
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 461375
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 481975
+dr-xr-xr-x   9 root             root                0 янв 17 22:37 482033
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 525513
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 6
+dr-xr-xr-x   9 systemd-resolve  systemd-resolve     0 янв 17 22:37 634
+dr-xr-xr-x   9 systemd-timesync systemd-timesync    0 янв 17 22:37 636
+dr-xr-xr-x   9 www-data         www-data            0 янв 17 23:36 653180
+dr-xr-xr-x   9 www-data         www-data            0 янв 17 23:36 653181
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 653246
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 653248
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65617
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65620
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65628
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65629
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65630
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65631
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65632
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 65633
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 664748
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 664844
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 664845
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 665
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 666
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 666625
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667617
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667668
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667741
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667792
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667867
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667926
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667927
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 667976
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 668018
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 668059
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 668075
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 668101
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 668113
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 668128
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 668132
+dr-xr-xr-x   9 avahi            avahi               0 янв 17 23:36 670
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 671
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 673
+dr-xr-xr-x   9 messagebus       messagebus          0 янв 17 22:42 677
+dr-xr-xr-x   9 root             root                0 янв 17 22:42 678
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 686
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 687
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 691
+dr-xr-xr-x   9 syslog           syslog              0 янв 17 23:36 695
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 702
+dr-xr-xr-x   9 root             root                0 янв 17 22:39 703
+dr-xr-xr-x   9 root             root                0 дек  9 22:21 705
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 706
+dr-xr-xr-x   9 avahi            avahi               0 янв 17 23:36 717
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 748
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 779
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 780
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 784
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 8
+dr-xr-xr-x   9 root             tony                0 янв 17 23:36 842
+dr-xr-xr-x   9 tony             tony                0 дек  9 22:21 853
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 854
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 880
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 882
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 885
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 889
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 89
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 891
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 894
+dr-xr-xr-x   9 rtkit            rtkit               0 янв 17 23:36 895
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 9
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 90
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 900
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 905
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 91
+dr-xr-xr-x   9 tony             tony                0 дек  9 22:21 913
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 93
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 933
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 938
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 94
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 942
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 95
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 951
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 956
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 96
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 961
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 96247
+dr-xr-xr-x   9 tony             tony                0 янв 17 23:36 966
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 97
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 970
+dr-xr-xr-x   9 root             root                0 янв 17 23:36 98
+dr-xr-xr-x   4 root             root                0 дек  9 22:21 acpi
+dr-xr-xr-x   5 root             root                0 дек  9 22:21 asound
+-r--r--r--   1 root             root                0 янв 17 23:36 buddyinfo
+dr-xr-xr-x   4 root             root                0 дек  9 22:21 bus
+-r--r--r--   1 root             root                0 янв 17 23:36 cgroups
+-r--r--r--   1 root             root                0 янв 17 23:36 cmdline
+-r--r--r--   1 root             root                0 янв 17 23:36 consoles
+-r--r--r--   1 root             root                0 янв 17 23:36 cpuinfo
+-r--r--r--   1 root             root                0 янв 17 23:36 crypto
+-r--r--r--   1 root             root                0 янв 17 23:36 devices
+-r--r--r--   1 root             root                0 янв 17 23:36 diskstats
+-r--r--r--   1 root             root                0 янв 17 23:36 dma
+dr-xr-xr-x   2 root             root                0 янв 17 23:36 driver
+-r--r--r--   1 root             root                0 янв 17 23:36 execdomains
+-r--r--r--   1 root             root                0 янв 17 23:36 fb
+-r--r--r--   1 root             root                0 янв 17 22:42 filesystems
+dr-xr-xr-x   8 root             root                0 дек  9 22:21 fs
+-r--r--r--   1 root             root                0 янв 17 22:37 interrupts
+-r--r--r--   1 root             root                0 янв 17 23:36 iomem
+-r--r--r--   1 root             root                0 янв 17 23:36 ioports
+dr-xr-xr-x  27 root             root                0 дек  9 22:21 irq
+-r--r--r--   1 root             root                0 дек  9 22:21 kallsyms
+-r--------   1 root             root             128T дек  9 22:21 kcore
+-r--r--r--   1 root             root                0 янв 17 23:36 keys
+-r--r--r--   1 root             root                0 янв 17 23:36 key-users
+-r--------   1 root             root                0 дек  9 22:21 kmsg
+-r--------   1 root             root                0 янв 17 23:36 kpagecgroup
+-r--------   1 root             root                0 янв 17 23:36 kpagecount
+-r--------   1 root             root                0 янв 17 23:36 kpageflags
+-r--r--r--   1 root             root                0 янв 17 23:36 loadavg
+-r--r--r--   1 root             root                0 янв 17 23:36 locks
+-r--r--r--   1 root             root                0 янв 17 23:36 mdstat
+-r--r--r--   1 root             root                0 янв 17 23:36 meminfo
+-r--r--r--   1 root             root                0 янв 17 23:36 misc
+-r--r--r--   1 root             root                0 янв 17 23:36 modules
+lrwxrwxrwx   1 root             root               11 янв 17 23:36 mounts -> self/mounts
+-rw-r--r--   1 root             root                0 дек  9 22:21 mtrr
+lrwxrwxrwx   1 root             root                8 янв 17 23:36 net -> self/net
+-r--------   1 root             root                0 янв 17 23:36 pagetypeinfo
+-r--r--r--   1 root             root                0 янв 17 23:36 partitions
+dr-xr-xr-x   2 root             root                0 янв 17 23:36 pressure
+-r--r--r--   1 root             root                0 янв 17 23:36 sched_debug
+-r--r--r--   1 root             root                0 янв 17 23:36 schedstat
+dr-xr-xr-x   3 root             root                0 дек  9 22:21 scsi
+lrwxrwxrwx   1 root             root                0 дек  9 22:21 self -> 668132
+-r--------   1 root             root                0 янв 17 23:36 slabinfo
+-r--r--r--   1 root             root                0 янв 17 23:36 softirqs
+-r--r--r--   1 root             root                0 янв 17 22:37 stat
+-r--r--r--   1 root             root                0 дек  9 22:21 swaps
+dr-xr-xr-x   1 root             root                0 дек  9 22:21 sys
+--w-------   1 root             root                0 дек  9 22:21 sysrq-trigger
+dr-xr-xr-x   2 root             root                0 янв 17 23:36 sysvipc
+lrwxrwxrwx   1 root             root                0 дек  9 22:21 thread-self -> 668132/task/668132
+-r--------   1 root             root                0 янв 17 23:36 timer_list
+dr-xr-xr-x   4 root             root                0 янв 17 23:36 tty
+-r--r--r--   1 root             root                0 янв 17 23:36 uptime
+-r--r--r--   1 root             root                0 янв 17 23:36 version
+-r--r--r--   1 root             root                0 янв 17 23:36 version_signature
+-r--------   1 root             root                0 янв 17 23:36 vmallocinfo
+-r--r--r--   1 root             root                0 янв 17 23:36 vmstat
+-r--r--r--   1 root             root                0 янв 17 23:36 zoneinfo
+tony@ubuntu410:~$ ls -lah /home
+итого 12K
+drwxr-xr-x  3 root root 4,0K дек  7 17:33 .
+drwxr-xr-x 20 root root 4,0K дек  7 17:32 ..
+drwxr-xr-x 19 tony tony 4,0K дек 22 01:58 tony
+tony@ubuntu410:~$
